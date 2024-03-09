@@ -1,0 +1,29 @@
+
+.footer, .header {
+    height: 10vh;
+    background-color: black;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+li button, .footer > button {
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main-body {
+    height: 80vh;
+    background-color: aqua;
+}
